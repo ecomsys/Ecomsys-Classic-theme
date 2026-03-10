@@ -12,7 +12,7 @@ npm i --save-dev
 Пример:
 
 ```bash
-WP_URL=http://localhost/wp              # подобный путь если через apache, nginx (норма)
+SITE_URL=http://localhost/wp              # подобный путь если через apache, nginx (норма)
 ```
 
 ---
@@ -38,7 +38,10 @@ docker ps
 ```bash
 http://localhost:8080                  # такой путь если docker (открываем просто порт)
 ```
-
+в .env вводи:
+```bash
+SITE_URL=http://localhost:8000    
+```
 
 # Inject SVG
 
